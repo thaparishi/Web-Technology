@@ -3,6 +3,39 @@ html{
 }
 
 body{
-  color: #49c5b6;
-  font: bold;
+  color: #ffffff;
+  text-align: center;
 }
+
+div.container {
+  text-align: center;
+}
+
+nav.navi{
+  display: inline-block;
+  text-align: left;
+}
+
+ol.hob{
+  text-align: center;
+  display: inline-block;
+  text-align: left;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  color: #49c5b6;
+}
+
+h2{
+  color: #49c5b6;
+}
+
+table, th, td {
+  border: 1px solid #ffffff;
+  }
