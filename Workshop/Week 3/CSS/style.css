@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Signika', sans-serif;
+}
+
+
+body{
+  background: linear-gradient(#000000 ,#494949);
+  font-size: 16px;
+}
+.nav{
+ 
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(../Images/48578.jpg);
+  background-size: cover;
+  background-position: center;
+}  
+.logo{
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+span{
+  color: #49c5b6;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a{
+  background: white;
+  padding: 6px 15px;
+  border-radius: 20px;
+  color: #49c5b6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color: #000000;
+  transition: .3s;
+}
+
+button{
+  border: none;
+  background: #49c5b6;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: .4s;
+}
+
+
+img {
+  align-items: center ;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  text-align: center;
+}
+
+h2{
+  color: #49c5b6;
+  text-align: center;
+  font-weight: bold;
+}
+
+ol{
+  text-align: center;
+}
+
+tr.topics{
+  text-align: center; 
+  color: #49c5b6;
+}
+
+table, th, td {
+  text-align: center;
+  border: 1px solid #999797;
+  }
+
+form{
+  text-align: center;
+}
+
+
+footer{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
